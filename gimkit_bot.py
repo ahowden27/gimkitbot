@@ -8,7 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from credentials import USER, GIMKITPASS
 
-PATH = "/Users/misterrobot/Documents/chromedriver"
+# Set to your path
+PATH = "/{PATH}/chromedriver"
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(PATH)
