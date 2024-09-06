@@ -1,4 +1,3 @@
-# Gimkit Bot by pxkka#2906
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
